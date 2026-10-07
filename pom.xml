@@ -28,6 +28,9 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<sonar.projectKey>BryanMedrano_Lab2CI-CD</sonar.projectKey>
+		<sonar.organization>bryanmedrano</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
 	</properties>
 	<dependencies>
