@@ -91,3 +91,4 @@ jobs:
           -Dsonar.organization=bryanmedrano
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.token=$SONAR_TOKEN
+          
