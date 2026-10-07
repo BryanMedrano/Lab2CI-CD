@@ -132,3 +132,13 @@ jobs:
           name: artifact
           #From this path
           path: target/lab2ci-cd.jar
+
+      - name: Build & push Docker image
+        uses: mr-smithers-excellent/docker-build-push@v6
+        with:
+            image: bryanmedrano/lab2ci-cd
+            tags: latest
+            registry: docker.io
+            dockerfile: Dockerfile
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
