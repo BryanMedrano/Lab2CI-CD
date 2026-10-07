@@ -1,9 +1,10 @@
-package com.udea.lab1v2026.service;
+package com.udea.lab1v2026;
 
 import com.udea.lab1v2026.DTO.CustomerDTO;
 import com.udea.lab1v2026.entity.Customer;
 import com.udea.lab1v2026.mapper.CustomerMapper;
 import com.udea.lab1v2026.repository.CustomerRepository;
+import com.udea.lab1v2026.service.CustomerService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
