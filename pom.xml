@@ -228,6 +228,7 @@
 				</dependencies>
 			</plugin>
 		</plugins>
+		<finalName>lab2ci-cd</finalName>
 	</build>
 
 </project>
