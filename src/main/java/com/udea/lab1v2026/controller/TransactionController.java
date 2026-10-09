@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/transactions", produces = "application/json")
-@CrossOrigin(origins = "*") // Permite peticiones desde el frontend sin bloqueos de CORS
 @Tag(name = "Transacciones", description = "API para realizar transferencias y consultar historiales")
 public class TransactionController {
 

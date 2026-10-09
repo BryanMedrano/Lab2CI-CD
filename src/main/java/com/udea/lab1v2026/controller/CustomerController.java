@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/customers", produces = "application/json")
-@CrossOrigin(origins = "*") // Permite la comunicación desde el Frontend sin problemas de CORS
 @Tag(name = "Clientes", description = "API para la gestión y consulta de clientes y sus cuentas")
 public class CustomerController {
 
