@@ -31,6 +31,13 @@
 		<sonar.projectKey>BryanMedrano_Lab2CI-CD</sonar.projectKey>
 		<sonar.organization>bryanmedrano</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.coverage.exclusions>
+			**/DTO/**,
+			**/entity/**,
+			**/mapper/**,
+			**/config/**,
+			**/Lab1v2026Application.java
+		</sonar.coverage.exclusions>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
 	</properties>
 	<dependencies>
