@@ -135,6 +135,10 @@
 				<configuration>
 					<excludes>
 						<!-- MapStruct-generated implementations have no source file -->
+						<exclude>**/DTO/**</exclude>
+						<exclude>**/entity/**</exclude>
+						<exclude>**/mapper/**</exclude>
+						<exclude>**/Lab1v2026Application.class</exclude>
 						<exclude>**/*MapperImpl.class</exclude>
 					</excludes>
 				</configuration>
