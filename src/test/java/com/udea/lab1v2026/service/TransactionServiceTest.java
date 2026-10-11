@@ -1,11 +1,10 @@
-package com.udea.lab1v2026;
+package com.udea.lab1v2026.service;
 
 import com.udea.lab1v2026.DTO.TransactionDTO;
 import com.udea.lab1v2026.entity.Customer;
 import com.udea.lab1v2026.entity.Transaction;
 import com.udea.lab1v2026.repository.CustomerRepository;
 import com.udea.lab1v2026.repository.TransactionRepository;
-import com.udea.lab1v2026.service.TransactionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -19,7 +18,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class TransactionServiceTest {
