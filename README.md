@@ -9,5 +9,31 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=BryanMedrano_Lab2CI-CD&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=BryanMedrano_Lab2CI-CD)
 [![Coverage Status](https://coveralls.io/repos/github/BryanMedrano/Lab2CI-CD/badge.svg?branch=main)](https://coveralls.io/github/BryanMedrano/Lab2CI-CD?branch=main)
 
-
 # Lab2CI-CD
+
+API REST para administrar clientes, cuentas y transferencias entre cuentas,
+desarrollada con Spring Boot. El proyecto demuestra un flujo de integración y
+despliegue continuos (CI/CD) con GitHub Actions.
+
+### ¿Qué contiene?
+
+- API REST para clientes:
+  - `GET /api/customers`
+  - `GET /api/customers/{id}`
+  - `POST /api/customers`
+  - `DELETE /api/customers/{id}`
+- API REST para transacciones:
+  - `POST /api/transactions`
+  - `GET /api/transactions/{accountNumber}`
+- Arquitectura por capas: controladores, servicios, repositorios, entidades,
+  DTO y manejo global de excepciones.
+- Persistencia con Spring Data JPA e Hibernate.
+- Validación de datos con Jakarta Validation.
+- Pruebas unitarias y de contexto con JUnit 5 y Mockito.
+- Reporte de cobertura con JaCoCo, Coveralls y SonarCloud.
+- Construcción de una imagen Docker para el despliegue.
+
+### Tecnologías principales
+
+Java 21, Spring Boot 4, Maven, PostgreSQL, H2, Docker, GitHub Actions,
+SonarCloud, Coveralls, Render y Vercel.
